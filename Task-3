@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+ /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: #5f9ea0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.about, .services, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services {
+    background: #f4f4f4;
+}
+
+.service-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .hero h1 {
+        font-size: 2em;
+    }
+}   
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="home" id="home">
+            <h1>Welcome to My Landing Page</h1>
+            <p>Iam S.Srinithya.</p>
+            <a href="#about" class="cta-btn">Learn More</a>
+        </section>
+    </header>
+
+    <section class="about" id="about" >
+        <h2>About</h2>
+        <p>Iam currently pursuing Btech-3rd year in Mallareddy engineering college for women</p>
+        <p>Outside of academics, I enjoy in coding, Actively participated in national social service(NSS), Recieved many course completion certifications in codetantra,cisco,Infosys..etc</p>
+    </section>
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="service-item">
+            <h3>Service 1</h3>
+            <p>I can build a code using html and css</p>
+        </div>
+        <div class="service-item">
+            <h3>Service 2</h3>
+            <p>Professional and reliable service you can count on.</p>
+        </div>
+        <div class="service-item">
+            <h3>Service 3</h3>
+            <p>Experienced in styling web pages with CSS, creating responsive and modern designs.</p>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact </h2>
+        <p>Feel free to reach out for any inquiries.</p>
+        <a href="srinithyasridhar@gmail.com" class="cta-btn">Email Us</a>
+    </section>
+    <footer>
+        <p>&copy;srinithyasridhar@gmail.com</p>
+    </footer>
+</body>
+</html>
